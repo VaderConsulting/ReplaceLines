@@ -1,6 +1,6 @@
 # ReplaceLines
 
-VB6 working copy of `ReplaceLines` from Dave Robinson's OneDrive Historical Dev `VB` folder. Project title: Project1. Output: `ReplaceLine.exe`.
+VB6 utility (`ReplaceLine.exe`) that deletes every line containing a search string from a named file (rewrites via a temp/bak pass; optional CLI `replaceline.exe filename searchstring`). Window caption: Delete lines from file. Distinct from sibling `RemText` and `ReplaceData`. Open `ReplaceLine.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -8,7 +8,7 @@ VB6 working copy of `ReplaceLines` from Dave Robinson's OneDrive Historical Dev 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `Project1` (`ReplaceLine.vbp`) | VB6 | WinForms exe | Project1 |
+| `Project1` (`ReplaceLine.vbp`) | VB6 | WinForms exe | Delete lines matching a search string from a file. |
 
 ## How to open
 
